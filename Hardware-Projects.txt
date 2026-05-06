@@ -1,0 +1,49 @@
+[SERVER] - in progress
+Dell Wyse 5070 E x2
+Dell Wyse 5070 x2
+Lenovo ThinkCentre Mini x1
+Custom Built PC x1 (spec below)
+UniFi Standard 16 PoE
+Arris SB8200 SURFboard
+UniFi U6 In-Wall
+TerraMaster D4-32OU 1U DAS
+
+[CUSTOM PC - SERVER] - in progress
+ASROCK B450M-HDV
+5500X3D
+GIGABYTE EAGLE OC GEFORCE RTX 3060 TI 8GB
+64 GIG DDR4-3200 CL22
+50GB NVME
+COOLER MASTER MWE GOLD 750 V2 Modular
+NOCTUA NH-L9x65
+PCIE 3.0 RISER CABLE
+
+[CUSTOM PC - DESKTOP] - Complete
+ASUS ROG STRIX X870-I
+9950X3D
+SAPPHIRE 9070XT NITRO +
+64 GIG DDR5-6000 CL28
+512GB NVME
+4TB NVME
+ASUS ROG LOKI 1000W
+ARTIC LIQUID FREEZER III PRO 240MM
+PCIE 5.0 RISER CABLE
+
+--------------------------
+
+[SERVER ARCHITECTURE]
+Wyse 5070 E 1 -  PFSENSE | Running WireGuard | Running pfBlockerNG-devel 
+ThinkCentre Mini - Alpine Linux | Website Host | NAS Host
+3060 & 5500X3D - RHEL | Protein Folding Simulation
+
+[NETWORK TOPOLOGY]
+ISP > ARRIS MODEM > WYSE 5070 > UNIFI SWITCH > Devices & UNIFI U6 AP
+PHYSICAL IN > PFSENSE > PHYSICAL OUT
+
+[DOCKER SERVICES]
+GAME SERVERS (when in use)
+
+[K3s Services]
+Vaultwarden
+
+---------------------------

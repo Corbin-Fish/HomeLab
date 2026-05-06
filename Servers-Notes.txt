@@ -1,0 +1,28 @@
+Custom PC:
+    Services:
+        Folding@Home
+
+K3 - Docker Swarm:
+    Services:
+        Vaultwarden
+
+ThinkCentre:
+    Services:
+        NAS - ZFS
+        website
+
+VPS:
+    Services:
+        Mail-In-A-Box
+            Dependency:
+                Nginx Reverse Proxy
+                SPF
+                DMARC
+                DKIM
+
+PFSense Router:
+    Services:
+        DNS
+        DHCP
+        Firewall
+        Wireguard

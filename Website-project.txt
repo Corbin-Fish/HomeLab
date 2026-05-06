@@ -1,0 +1,18 @@
+[FRONTEND]
+HTMX
+
+[BACKEND]
+Kore
+
+[SERVICE]
+NginX
+
+landing page
+dashboard
+protein folding stream
+
+landing page is just htmx
+dashboard created in kore
+kore query f@h 
+ffmpeg convert to hls
+nginx serve to htmx to display
